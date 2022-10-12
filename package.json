@@ -1,6 +1,6 @@
 {
   "name": "@zetaraku/hello-npm",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A test npm package :)",
   "type": "module",
   "main": "index.js",
