@@ -4,6 +4,8 @@
 
 A test npm package :)
 
+You can create one for yourself by following **[this instruction](https://docs.npmjs.com/packages-and-modules/contributing-packages-to-the-registry)** on npm. It's easy!
+
 ## Installation
 
 ```sh
