@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/zetaraku/hello-npm#readme",
   "devDependencies": {
-    "@tsconfig/node-lts-strictest": "^18.12.1"
+    "@tsconfig/node-lts-strictest": "^18.12.1",
+    "@tsconfig/node-lts-strictest-esm": "^18.12.1"
   }
 }
