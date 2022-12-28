@@ -20,6 +20,7 @@
   "devDependencies": {
     "@tsconfig/node-lts-strictest": "^18.12.1",
     "@tsconfig/node-lts-strictest-esm": "^18.12.1",
+    "@types/node": "^18.11.18",
     "typescript": "^4.9.4"
   }
 }
