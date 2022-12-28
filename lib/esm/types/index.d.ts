@@ -1,2 +1,2 @@
-export default function hello(): void;
+export function hello(): void;
 //# sourceMappingURL=index.d.ts.map
