@@ -14,6 +14,14 @@ $ npm install @zetaraku/hello-npm
 
 ## API
 
+CommonJS
+
+```js
+const hello = require('@zetaraku/hello-npm');
+```
+
+ES Module
+
 ```js
 import hello from '@zetaraku/hello-npm';
 ```
