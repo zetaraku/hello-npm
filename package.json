@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "description": "A test npm package :)",
   "type": "module",
-  "main": "./lib/cjs/index.js",
+  "main": "./lib/cjs/index.cjs",
   "types": "./lib/cjs/types/index.d.ts",
   "exports": {
     ".": {
       "require": {
         "types": "./lib/cjs/types/index.d.ts",
-        "default": "./lib/cjs/index.js"
+        "default": "./lib/cjs/index.cjs"
       },
       "import": {
         "types": "./lib/esm/types/index.d.ts",
@@ -20,7 +20,7 @@
   "scripts": {
     "clean": "rm -rf ./lib",
     "build": "npm run clean && npm run build:cjs && npm run build:esm",
-    "build:cjs": "tsc -p ./tsconfig.cjs.json",
+    "build:cjs": "tsc -p ./tsconfig.cjs.json && mv ./lib/cjs/index.js ./lib/cjs/index.cjs",
     "build:esm": "tsc -p ./tsconfig.esm.json && mv ./lib/esm/index.js ./lib/esm/index.mjs",
     "prepack": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
