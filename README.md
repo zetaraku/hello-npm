@@ -17,13 +17,13 @@ $ npm install @zetaraku/hello-npm
 CommonJS
 
 ```js
-const hello = require('@zetaraku/hello-npm');
+const { hello } = require('@zetaraku/hello-npm');
 ```
 
 ES Module
 
 ```js
-import hello from '@zetaraku/hello-npm';
+import { hello } from '@zetaraku/hello-npm';
 ```
 
 ### hello()
